@@ -1,0 +1,7 @@
+{
+    "name": "Thin_Client_Assignment2_WC2018_L00086023_Anthony_Quinn", "version": "1.0.0", "main": "path/to/main.css", "ignore": [
+        ".jshintrc", "**/*.txt"
+    ], "dependencies": {
+    }, "devDependencies": {
+    }
+}
