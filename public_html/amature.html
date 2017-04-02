@@ -1,0 +1,38 @@
+<div id="container">
+    <table id="demo"></table>
+        <script>
+        
+    // Initialize
+    (function() { 
+    	loadXMLDoc(); 
+    })(); 
+    
+    function loadXMLDoc() {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          myFunction(xmlhttp);
+        }
+      };
+      xmlhttp.open("GET", "cd_catalog.xml", true);
+      xmlhttp.send();
+    }
+    function myFunction(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var table="<tr><th>Rating</th><th>Title</th><th>Thumbnail</tr>";
+      var x = xmlDoc.getElementsByTagName("CD");
+      for (i = 0; i <x.length; i++) { 
+        var img = x[i].getElementsByTagName("IMAGE1")[0].childNodes[0].nodeValue;
+        var url = x[i].getElementsByTagName("MATCH")[0].childNodes[0].nodeValue;
+        table += "<tr><td>" +
+          x[i].getElementsByTagName("LOCATION")[0].childNodes[0].nodeValue +
+          "</td><td>" +
+          x[i].getElementsByTagName("DATE")[0].childNodes[0].nodeValue +
+          "</td><td><a href='"+url+"'><img src='"+img+"'></a></td></tr>";      
+      }
+      document.getElementById("demo").innerHTML = table;
+    }
+    </script>
+
+</div>
