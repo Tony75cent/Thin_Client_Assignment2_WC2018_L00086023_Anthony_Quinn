@@ -48,14 +48,14 @@
         <link href="CSS/displayed.css" rel="stylesheet" type="text/css"/>
         <link href="CSS/h1_aligne_text_centre.css" rel="stylesheet" type="text/css"/>
         <link href="CSS/button.css" rel="stylesheet" type="text/css"/>
-        
+
     </head>
 
     <body onload="loadWorldCupXMLDoc()">
         <br><br>
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
+        <!--nav class="navbar navbar-inverse navbar-fixed-top">
+            <!--div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -63,75 +63,76 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Project name</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <form class="navbar-form navbar-right">
-                        <div class="form-group">
-                            <input type="text" placeholder="Email" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" placeholder="Password" class="form-control">
-                        </div>
-                         <!--  href= "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={67a6c02326b50e8b17c0f8e091b9c9c2}" -->
-                        <!--button type="button" onclick="loadXMLDoc()">Get my CD collection</button-->
+                </div-->
+            <!--div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control">
+                    </div>
+            <!--  href= "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={67a6c02326b50e8b17c0f8e091b9c9c2}" -->
+            <!--button type="button" onclick="loadXMLDoc()">Get my CD collection</button-->
 
-                    </form>
-                </div><!--/.navbar-collapse -->
-            </div>
-        </nav>
+        </form>
+    </div--><!--/.navbar-collapse -->
+</div-->
+</nav-->
 
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
-            <div class="container">
-                <h1>Thin Client Assignment 2 </h1>
-                <p>
-                    <img class="displayed" src="Images/FIFA_World_Cup_Russia_2018_bidding_logo.svg.png" alt="" width="650" height="250"/>
-                </p>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>Thin Client Assignment 2 </h1>
+        <p>
+            <img class="displayed" src="Images/FIFA_World_Cup_Russia_2018_bidding_logo.svg.png" alt="" width="650" height="250"/>
+        </p>
 
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-            </div>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-4">
+            <!--h2>Heading</h2-->
+            <!--p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p-->
+            <!--p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p-->
         </div>
+        <div class="col-md-4">
+            <h2>Group A </h2>
+            <form>
+                <table class="table" id="demo"></table> <!--This tag will need to be removed soon -->
+                <table class="table" id="matchlist"></table>                                                       
 
-        <div class="container">
-            <!-- Example row of columns -->
-            <div class="row">
-                <div class="col-md-4">
-                    <!--h2>Heading</h2-->
-                    <!--p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p-->
-                    <!--p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p-->
-                </div>
-                <div class="col-md-4">
-                    <h2>Group A </h2>
-                    <form>
-                        <table class="table" id="demo"></table>                                                       
-                        <button id="submit"  role="button">Update XML File</button>
-                        <!--p><button id="submit"  role="button">View details</button></p-->
+                <button id="submit"  role="button">Update XML File</button>
+                <!--p><button id="submit"  role="button">View details</button></p-->
 
-                    </form>
-                </div>
-                <div class="col-md-4">
-                    <!--h2>Heading</h2-->
-                    <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p-->
-                    <!--p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p-->
-                </div>
-            </div>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <!--h2>Heading</h2-->
+            <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p-->
+            <!--p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p-->
+        </div>
+    </div>
 
-            <hr>
+    <hr>
 
-            <footer>
-                <p>&copy; 2017 Thin Client Assingment 2 WC 2018 Anthony Quinn L00086023.</p>
-            </footer>
-        </div> <!-- /container -->
+    <footer>
+        <p>&copy; 2017 Thin Client Assigement 2 WC 2018 Anthony Quinn L00086023.</p>
+    </footer>
+</div> <!-- /container -->
 
 
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="../../dist/js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
 </html>

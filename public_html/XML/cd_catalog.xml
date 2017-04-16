@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CATALOG>
-    <CD>
-        <IMAGE1 src="\Images\nationalFlags\englandFlag.png" alt="no flag" ></IMAGE1>
-        <IMAGE2 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/ie.svg" alt="Republic of Ireland"></IMAGE2>
+<?xml-stylesheet type="text/xsl" href="XML/fixtures.xsl"?>
+
+<MATCH_FIXTURES>
+    <FIXTURE field="Football">
+        <imgurl src="\Images\nationalFlags\englandFlag.png" alt="no flag" ></imgurl>
+        <imgurl2 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/ie.svg" alt="Republic of Ireland"></imgurl2>
         <MATCH>Brazil v Ireland</MATCH>
-        <LOCATION>Somewhere,Georgia</LOCATION>
+        <LOCATION >Somewhere,Georgia</LOCATION>
         <DATE>10.90</DATE>
         <RESULT>1985</RESULT>
         
 
     
-    </CD>
-    <CD>
-        <IMAGE1 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/se.svg" alt="No flag available"></IMAGE1>
-        <IMAGE2 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/se.svg" alt="No flag available"></IMAGE2>
+    </FIXTURE>
+    <FIXTURE field="Football">
+        <imgurl src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/se.svg" alt="No flag available"></imgurl>
+        <imgurl2 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/se.svg" alt="No flag available"></imgurl2>
         <MATCH>Italy v England</MATCH>
         <LOCATION>SomewhereElse, Russia</LOCATION>
         <DATE>9.90</DATE>
         <RESULT>1988</RESULT>
 
-    </CD>
-    <CD>
-        <IMAGE1 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/ie.svg" alt="Republic of Ireland"></IMAGE1>
-        <IMAGE2 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/se.svg" alt="No flag available"></IMAGE2>
+    </FIXTURE>
+    <FIXTURE field="Football">
+        <imgurl src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/ie.svg" alt="Republic of Ireland"></imgurl>
+        <imgurl2 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/se.svg" alt="No flag available"></imgurl2>
         <MATCH>Ireland v England</MATCH>
         <LOCATION>StrangeName,Ukraine</LOCATION>
         <DATE>9.90</DATE>
         <RESULT>1982</RESULT>
 
-    </CD>
-    <CD>
-        <IMAGE1 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/be.svg" alt="No flag available"></IMAGE1>
-        <IMAGE2 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/be.svg" alt="No flag available" ></IMAGE2>
+    </FIXTURE>
+    <FIXTURE field="Football">
+        <imgurl src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/be.svg" alt="No flag available"></imgurl>
+        <imgurl2 src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.1.0/flags/1x1/be.svg" alt="No flag available" ></imgurl2>
         <MATCH>Italy v Ireland</MATCH>
         <LOCATION>Dangerous,Chechnea</LOCATION>
         <DATE>10.20</DATE>
         <RESULT>1990</RESULT>
 
-    </CD>
+    </FIXTURE>
  
   
-</CATALOG>
+</MATCH_FIXTURES>
