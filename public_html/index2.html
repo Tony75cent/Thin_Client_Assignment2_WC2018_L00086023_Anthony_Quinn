@@ -48,35 +48,37 @@
         <link href="CSS/displayed.css" rel="stylesheet" type="text/css"/>
         <link href="CSS/h1_aligne_text_centre.css" rel="stylesheet" type="text/css"/>
         <link href="CSS/button.css" rel="stylesheet" type="text/css"/>
-
+        <link href="CSS/tableLayout.css" rel="stylesheet" type="text/css"/>
     </head>
+    <body>
+    <!--body onload="loadWorldCupXMLDoc()"-->
+            <!--body onload="LoadFixtures(order)"-->
 
-    <body onload="loadWorldCupXMLDoc()">
         <br><br>
 
         <!--nav class="navbar navbar-inverse navbar-fixed-top">
-            <!--div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div-->
-            <!--div id="navbar" class="navbar-collapse collapse">
-                <form class="navbar-form navbar-right">
-                    <div class="form-group">
-                        <input type="text" placeholder="Email" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" placeholder="Password" class="form-control">
-                    </div>
-            <!--  href= "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={67a6c02326b50e8b17c0f8e091b9c9c2}" -->
-            <!--button type="button" onclick="loadXMLDoc()">Get my CD collection</button-->
+        <!--div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div-->
+        <!--div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" placeholder="Email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" class="form-control">
+                </div>
+        <!--  href= "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={67a6c02326b50e8b17c0f8e091b9c9c2}" -->
+        <!--button type="button" onclick="loadXMLDoc()">Get my CD collection</button-->
 
-        </form>
-    </div--><!--/.navbar-collapse -->
+    </form>
+</div--><!--/.navbar-collapse -->
 </div-->
 </nav-->
 
@@ -103,15 +105,20 @@
         <div class="col-md-4">
             <h2>Group A </h2>
             <form>
+
+                <div  id="update"></div>
                 <table class="table" id="demo"></table> <!--This tag will need to be removed soon -->
                 <table class="table" id="matchlist"></table>                                                       
 
                 <button id="submit"  role="button">Update XML File</button>
-                <!--p><button id="submit"  role="button">View details</button></p-->
+                <button id="submit2"  role="button">View details</button>
 
             </form>
         </div>
         <div class="col-md-4">
+            <button id="p1" onclick="LoadFixtures('desc');">Sort in Descending order</button>
+            <button id="p2" onclick="LoadFixtures('asc');">Sort in Ascending order</button>
+
             <!--h2>Heading</h2-->
             <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p-->
             <!--p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p-->

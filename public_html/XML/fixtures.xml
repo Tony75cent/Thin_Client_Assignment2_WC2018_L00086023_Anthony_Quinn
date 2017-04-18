@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="fixtures.xsl"?>
+
+
+<Fixtures>
+    <fixtures id="1">
+        
+    
+        <match>Brazil v Rep. of Ireland</match>
+        <location>Luzhniki Stadium,Moscow</location>
+        <date>Saturday, June 11</date>
+        <result id='match_1'> 2:1</result>
+
+    </fixtures>
+     
+    <fixtures id="2">
+        <match>Rep. of Ireland v England</match>
+        <location>Zenit Arena,St. Petersburg</location>
+        <date> Monday.13 june 2016</date>
+        <result id='match_2'> 3:2</result>
+
+    </fixtures>
+     
+    <fixtures id="3">
+        <match> Italy v Rep. of Ireland</match>
+        <location>Fisht Olympic Stadium,Sochi</location>
+        <date>Tuesday, June 14 </date>
+        <result id='match_3'> 3:1</result>
+
+    </fixtures>
+      
+    <fixtures id="4">
+        <match>Italy v England</match>
+        <location>Ekaterinburg Arena,Ekaterinburg</location>
+        <date> Monday,18  June </date>
+        <result id='match_4'> 5:1</result>
+
+    </fixtures>
+    <fixtures id="5">
+        <match>Italy v Brazil </match>
+        <location>Nizhny Novgorod Stadium,Nizhny Novgorod</location>
+        <date>Friday, 22 June </date>
+        <result id='match_5'> 4:5</result>
+
+    </fixtures>
+             
+	
+</Fixtures>
+
